@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  background-color: #feca1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  color: #35008b;
+}
+
+.pokeapi-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #35008b;
+  text-align: center;
+}
+
+.login-form label {
+  align-self: flex-start;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #35008b;
+}
+
+.login-form input:focus {
+  border-color: #35008b;
+  outline: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #feca1b;
+  border: 1px solid #feca1b;
+  color: #35008b;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  font-weight: bold;
+}
+
+.login-form button:disabled {
+  cursor: not-allowed;
+}
